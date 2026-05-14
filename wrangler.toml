@@ -1,12 +1,12 @@
 # wrangler.toml configuration for Profound Log Collector Worker
-name = "pri-worker"
+name = "dfi-worker"
 main = "src/index.js"
-compatibility_date = "2024-12-01"
+compatibility_date = "2026-05-14"
 
 # Route binding: This tells Cloudflare which traffic should trigger your worker.
 # !!! IMPORTANT: You MUST replace these placeholder values with your actual domain details !!!
 routes = [
-  { pattern = "priorityoneheating.com/*", zone_name = "priorityoneheating.com" }
+  { pattern = "www.calldoctorfixit.com/*", zone_name = "www.calldoctorfixit.com" }
   # Example: If your site is www.example.com, use:
   # { pattern = "example.com/*", zone_name = "example.com" }
   # The zone_name is usually your root domain without 'www'.
