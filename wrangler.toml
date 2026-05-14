@@ -16,7 +16,7 @@ routes = [
 # Environment variables accessible within the worker code
 [vars]
 PROFOUND_API_URL = "https://artemis.api.tryprofound.com/v1/logs/cloudflare_worker"
-PROFOUND_API_KEY = "bot_1f1abeb9-61bd-4369-9d6d-0509347c21f2"
+PROFOUND_API_KEY = "bot_a88d49a1-f1e2-4236-a05d-4c018904f24b"
 
 # Note on Secrets:
 # The PROFOUND_API_KEY is sensitive and MUST be configured as a secret,
