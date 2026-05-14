@@ -6,7 +6,7 @@ compatibility_date = "2026-05-14"
 # Route binding: This tells Cloudflare which traffic should trigger your worker.
 # !!! IMPORTANT: You MUST replace these placeholder values with your actual domain details !!!
 routes = [
-  { pattern = "calldoctorfixit.com/*", zone_name = "calldoctorfixit.com" }
+  { pattern = "*.calldoctorfixit.com/*", zone_name = "calldoctorfixit.com" }
   # Example: If your site is www.example.com, use:
   # { pattern = "example.com/*", zone_name = "example.com" }
   # The zone_name is usually your root domain without 'www'.
